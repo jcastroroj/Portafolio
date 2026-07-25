@@ -92,8 +92,17 @@ export const projects = [
         liveUrl: 'https://codymotors.pe/'
     },
     {
+        name: 'FOCCADI',
+        image: '/images/foccadi.png',
+        url: 'foccadi.consigueventas.com',
+        description: 'Colaboré en el desarrollo del sitio web de esta ONGD dedicada a la capacitación y acompañamiento en el cuidado del Alzheimer, integrando secciones de servicios, testimonios, preguntas frecuentes y formulario de contacto.',
+        technologies: ['WordPress', 'JS', 'CSS'],
+        githubUrl: null,
+        liveUrl: 'https://foccadi.consigueventas.com/'
+    },
+    {
         name: 'PostulaPe - Sistema de Reclutamiento',
-        image: '/images/postulape.jpg',
+        image: '/images/postulape.png',
         url: null,
         description: 'Sistema backend para la gestión de procesos de reclutamiento que permite administrar postulantes, convocatorias y etapas de selección, optimizando el flujo de contratación en recursos humanos.',
         technologies: ['Java', 'Spring Boot', 'MySQL', 'REST API'],
@@ -102,7 +111,7 @@ export const projects = [
     },
     {
         name: 'Sistema Académico Universitario',
-        image: '/images/universidad.jpg',
+        image: '/images/universidad.png',
         url: null,
         description: 'Backend para la gestión académica de una universidad, enfocado en un diseño relacional robusto con integridad referencial, auditoría y control de matrículas mediante reglas en base de datos.',
         technologies: ['Node.js', 'MySQL', 'API REST'],
@@ -111,7 +120,7 @@ export const projects = [
     },
     {
         name: 'EquilibrioS - Finanzas Personales',
-        image: '/images/equilibrios.jpg',
+        image: '/images/equilibrios.png',
         url: 'jhoandrya.github.io/EquilibrioS',
         description: 'Aplicación web para gestionar ingresos y gastos mensuales con visualización gráfica, control de presupuesto y almacenamiento local sin necesidad de backend.',
         technologies: ['JavaScript', 'HTML', 'CSS', 'LocalStorage'],

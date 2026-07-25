@@ -82,7 +82,7 @@ export default function Hero(): JSX.Element {
                     {/* Stats */}
                     <div className="flex gap-8 pt-4 border-t border-slate-800">
                         <div>
-                            <p className="text-2xl font-bold text-white">6+</p>
+                            <p className="text-2xl font-bold text-white">7+</p>
                             <p className="text-xs text-slate-500 mt-0.5">Proyectos</p>
                         </div>
                         <div className="w-px bg-slate-800" />
