@@ -2,7 +2,8 @@
 
 import { motion } from 'framer-motion'
 import { fadeIn, textVariant } from '@/app/lib/animations'
-import { skills } from '@/app/lib/constants'
+import { skills, certificates } from '@/app/lib/constants'
+import { FiExternalLink } from 'react-icons/fi'
 
 export default function About() {
     return (
@@ -117,6 +118,49 @@ export default function About() {
                     </div>
                 </motion.div>
             </div>
+
+            {/* Certificaciones */}
+            <motion.div
+                variants={fadeIn('up', 'spring', 0.2, 1)}
+                className="mt-14"
+            >
+                <h3 className="text-xl font-semibold mb-1 text-amber-400">
+                    Certificaciones
+                </h3>
+                <p className="text-sm text-slate-500 mb-6">
+                    Cursos y certificados que respaldan mi formación
+                </p>
+
+                <div className="flex flex-col gap-3">
+                    {certificates.map((cert) => (
+                        <a
+                            key={cert.name}
+                            href={cert.pdfUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="group flex items-center justify-between gap-4 p-4 rounded-xl border border-slate-800 bg-slate-900/50 hover:border-amber-500/40 hover:bg-slate-900 transition-all duration-200"
+                        >
+                            <div className="flex items-center gap-4 min-w-0">
+                                <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/20 flex items-center justify-center">
+                                    <cert.icon className="w-5 h-5 text-amber-400" />
+                                </div>
+                                <div className="min-w-0">
+                                    <p className="text-sm font-medium text-white truncate">
+                                        {cert.name}
+                                    </p>
+                                    <p className="text-xs text-slate-500">
+                                        {cert.issuer} · {cert.date}
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="flex-shrink-0 flex items-center gap-1.5 text-xs font-medium text-slate-400 group-hover:text-amber-400 transition-colors">
+                                Ver PDF
+                                <FiExternalLink size={13} />
+                            </div>
+                        </a>
+                    ))}
+                </div>
+            </motion.div>
         </motion.section>
     )
 }

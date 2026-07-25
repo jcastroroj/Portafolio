@@ -5,7 +5,8 @@ import {
     FiLayers,
     FiDatabase,
     FiCpu,
-    FiCode
+    FiCode,
+    FiAward
 } from 'react-icons/fi'
 
 import {
@@ -128,6 +129,25 @@ export const projects = [
         liveUrl: 'https://jhoandrya.github.io/EquilibrioS/'
     }
 ]
+
+// 🔹 CERTIFICACIONES
+export const certificates = [
+    {
+        name: 'WordPress para Desarrollo Web',
+        issuer: 'Consigue Ventas',
+        date: 'Junio 2026',
+        pdfUrl: '/certificates/certificado-wordpress.pdf',
+        icon: FiAward
+    },
+    {
+        name: 'Fundamentos del Desarrollo Web Moderno (HTML, CSS, JavaScript)',
+        issuer: 'Consigue Ventas',
+        date: 'Marzo 2026',
+        pdfUrl: '/certificates/certificado-fundamentos-web.pdf',
+        icon: FiAward
+    },
+]
+ 
 
 export const services = [
     {
