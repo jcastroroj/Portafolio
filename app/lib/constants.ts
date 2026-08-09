@@ -73,6 +73,15 @@ export const projects = [
         githubUrl: null,
         liveUrl: '#'
     },
+    {
+        name: 'Dashboard de Control Operativo - Redes Sociales',
+        image: '/images/Dasboard_Control_Operativo_RedesSociales.png',
+        url: null,
+        description: 'Panel de control analítico enfocado en la gestión y monitoreo de la atención por canales digitales (Facebook e Instagram), optimizando niveles de servicio (SLA), tiempos de respuesta, volumetría de interacciones y calidad de servicio.',
+        technologies: ['Power BI', 'DAX', 'Modelado Dimensional', 'KPIs Operativos', 'SQL Server'],
+        githubUrl: null,
+        liveUrl: '#'
+    },
 ]
 
 
