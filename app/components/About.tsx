@@ -17,7 +17,7 @@ export default function About() {
             {/* Encabezado */}
             <motion.div variants={textVariant()}>
                 <p className="text-blue-400 text-sm font-medium tracking-widest uppercase mb-2">
-                    Conócemeee
+                    Conóceme
                 </p>
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
                     Sobre mí
