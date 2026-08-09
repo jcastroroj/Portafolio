@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --bg-primary: #080c14;
-  --bg-secondary: #0f172a;
-  --bg-card: #1e293b;
-  --accent-blue: #0284c7;
-  --accent-cyan: #38bdf8;
-  --accent-emerald: #059669;
-  --text-primary: #f8fafc;
-  --text-secondary: #cbd5e1;
-  --text-muted: #64748b;
-  --border: rgba(56, 189, 248, 0.15);
+  --bg-primary: #050508;
+  --bg-secondary: #0c0d12;
+  --bg-card: #14161f;
+  --accent-blue: #10b981;
+  --accent-cyan: #34d399;
+  --accent-emerald: #fbbf24;
+  --text-primary: #ffffff;
+  --text-secondary: #a1a1aa;
+  --text-muted: #52525b;
+  --border: rgba(16, 185, 129, 0.2);
 }
 
 html {
@@ -34,7 +34,7 @@ body {
   background: var(--bg-primary);
 }
 ::-webkit-scrollbar-thumb {
-  background: #334155;
+  background: #1f222e;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -43,7 +43,7 @@ body {
 
 /* Selección de texto */
 ::selection {
-  background: rgba(2, 132, 199, 0.3);
+  background: rgba(16, 185, 129, 0.3);
   color: #fff;
 }
 
