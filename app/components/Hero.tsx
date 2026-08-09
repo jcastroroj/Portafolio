@@ -39,19 +39,23 @@ export default function Hero(): JSX.Element {
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
                         Hola, soy{' '}
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400 whitespace-nowrap">
-                            Jhoandry Apaza
+                            Jorge Castro
                         </span>
                     </h1>
 
                     <h2 className="text-xl md:text-2xl font-medium text-slate-300">
-                        Desarrollador de Software
+                        Analista de Datos
                     </h2>
 
                     <p className="text-base text-slate-400 leading-relaxed max-w-lg">
-                        Desarrollo aplicaciones web modernas, escalables y funcionales,
-                        enfocadas en brindar una excelente experiencia de usuario y alto
-                        rendimiento. Soluciones digitales eficientes con buenas prácticas
-                        de desarrollo.
+                        Analista de Datos con más de 4 años de experiencia en diseño, desarrollo y
+                        optimización de procesos de datos en SQL Server. Especializado en consulta
+                        T-SQL, desarrollo de procesos ETL con SSIS e integración de datos desde
+                        múltiples fuentes para la automatización de reportes y generación de KPIs.
+                        Experiencia en la construcción de pipelines de datos, análisis de información
+                        y detección de patrones de fraude, orientado a mejorar la disponibilidad,
+                        calidad y trazabilidad de los datos para la toma de decisiones.
+
                     </p>
 
                     {/* BOTONES */}
@@ -63,14 +67,14 @@ export default function Hero(): JSX.Element {
                             Ver proyectos
                         </Link>
                         <a
-                            href="/CV_JHOANDRY.pdf"
+                            href="/CV_JORGE_CASTRO_ROJAS.pdf"
                             download
                             className="px-6 py-3 rounded-full font-medium border border-slate-600 text-slate-200 hover:border-blue-400 hover:text-blue-400 hover:bg-blue-400/5 transition-all duration-200"
                         >
                             Descargar CV
                         </a>
                         <a
-                            href="https://wa.me/51928806831"
+                            href="https://wa.me/51923585498"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-6 py-3 rounded-full font-medium text-emerald-400 border border-emerald-500/40 hover:bg-emerald-500/10 hover:border-emerald-400 transition-all duration-200"
@@ -82,18 +86,18 @@ export default function Hero(): JSX.Element {
                     {/* Stats */}
                     <div className="flex gap-8 pt-4 border-t border-slate-800">
                         <div>
-                            <p className="text-2xl font-bold text-white">7+</p>
-                            <p className="text-xs text-slate-500 mt-0.5">Proyectos</p>
-                        </div>
-                        <div className="w-px bg-slate-800" />
-                        <div>
-                            <p className="text-2xl font-bold text-white">10+</p>
-                            <p className="text-xs text-slate-500 mt-0.5">Tecnologías</p>
+                            <p className="text-2xl font-bold text-white">4+</p>
+                            <p className="text-xs text-slate-500 mt-0.5">Años de Exp.</p>
                         </div>
                         <div className="w-px bg-slate-800" />
                         <div>
                             <p className="text-2xl font-bold text-white">100%</p>
-                            <p className="text-xs text-slate-500 mt-0.5">Responsive</p>
+                            <p className="text-xs text-slate-500 mt-0.5">Automatizado</p>
+                        </div>
+                        <div className="w-px bg-slate-800" />
+                        <div>
+                            <p className="text-2xl font-bold text-white">+50k</p>
+                            <p className="text-xs text-slate-500 mt-0.5">Datos Procesados</p>
                         </div>
                     </div>
                 </motion.div>
@@ -108,8 +112,8 @@ export default function Hero(): JSX.Element {
                         <div className="absolute inset-0 rounded-full border border-blue-400/10 scale-125" />
                         <div className="absolute inset-0 rounded-full bg-blue-500/15 blur-2xl scale-125" />
                         <Image
-                            src="/Jhoandry.png"
-                            alt="Foto de perfil de Jhoandry Apaza"
+                            src="/Foto_Castro_Rojas.png"
+                            alt="Foto de perfil de Jorge Castro"
                             width={320}
                             height={320}
                             className="relative rounded-full object-cover ring-2 ring-blue-500/40"
@@ -118,8 +122,8 @@ export default function Hero(): JSX.Element {
                         <div className="absolute -bottom-2 -left-4 flex items-center gap-2 bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 shadow-xl">
                             <FiLayers className="text-blue-400" size={16} />
                             <div>
-                                <p className="text-xs font-semibold text-white leading-none">Full Stack</p>
-                                <p className="text-xs text-slate-400 leading-none mt-0.5">Java · Node · WordPress</p>
+                                <p className="text-xs font-semibold text-white leading-none">Analista de Datos</p>
+                                <p className="text-xs text-slate-400 leading-none mt-0.5">SQL · PHYTON · POWERBI · ETL</p>
                             </div>
                         </div>
                     </div>

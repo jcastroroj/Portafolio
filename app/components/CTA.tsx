@@ -76,23 +76,25 @@ export default function CTA(): JSX.Element {
                             </h2>
 
                             <p className="text-slate-400 leading-relaxed text-sm">
-                                Estoy disponible para proyectos freelance, prácticas profesionales
-                                o colaboración en desarrollo de software. Si tienes una idea, hablemos.
+                                Estoy disponible para proyectos freelance, consultoría o nuevos retos
+                                laborales a tiempo completo en Data & Analytics, Business Intelligence y
+                                optimización de bases de datos. Si tienes una oportunidad o requerimiento,
+                                hablemos.
                             </p>
 
                             {/* Contacto directo */}
                             <div className="flex flex-col gap-3 pt-2">
                                 <a
-                                    href="mailto:jhoandryoficial@gmail.com"
+                                    href="mailto:luisjcr.1801@gmail.com"
                                     className="flex items-center gap-3 text-sm text-slate-400 hover:text-blue-400 transition-colors"
                                 >
                                     <div className="w-8 h-8 rounded-lg bg-slate-800 border border-slate-700 flex items-center justify-center flex-shrink-0">
                                         <FiMail size={14} />
                                     </div>
-                                    jhoandryoficial@gmail.com
+                                    luisjcr.1801@gmail.com
                                 </a>
                                 <a
-                                    href="https://wa.me/51928806831"
+                                    href="https://wa.me/51923585498"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center gap-3 text-sm text-slate-400 hover:text-emerald-400 transition-colors"

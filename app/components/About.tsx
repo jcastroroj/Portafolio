@@ -33,17 +33,18 @@ export default function About() {
                     className="md:w-1/2 flex flex-col gap-4"
                 >
                     <p className="text-slate-300 leading-relaxed">
-                        Desarrollador de software enfocado en construir productos funcionales,
-                        rápidos y responsivos, trabajando de forma independiente y en equipo.
+                        Analista de Datos con sólida experiencia en la gestión, procesamiento y análisis de bases de datos transaccionales, 
+                        automatización de flujos ETL y desarrollo de soluciones de Business Intelligence.
                     </p>
                     <p className="text-slate-300 leading-relaxed">
-                        Trabajo con tecnologías como JavaScript, React, Next.js, Java y bases de
-                        datos, cubriendo tanto frontend como backend, además de desarrollo de
-                        sitios web con WordPress.
+                        Trabajo con tecnologías como SQL Server (T-SQL avanzado, SSIS), Power BI, Excel avanzado y Python, transformando 
+                        grandes volúmenes de datos en información estratégica para la toma de decisiones. 
+                        
                     </p>
                     <p className="text-slate-300 leading-relaxed">
-                        Me apasiona resolver problemas y construir sistemas funcionales
-                        aplicando buenas prácticas de desarrollo.
+                        Mi background incluye experiencia previa como Auditor de Fraude y Analista de Reporting, lo que me otorga un fuerte 
+                        enfoque analítico en la detección de anomalías, control de calidad y optimización de procesos operativos.
+
                     </p>
 
                     {/* Info adicional */}
@@ -54,11 +55,11 @@ export default function About() {
                         </div>
                         <div className="p-4 rounded-xl border border-slate-800 bg-slate-900/50">
                             <p className="text-xs text-slate-500 mb-1">Disponibilidad</p>
-                            <p className="text-sm font-medium text-emerald-400">Freelance</p>
+                            <p className="text-sm font-medium text-emerald-400">Laboral / Proyectos</p>
                         </div>
                         <div className="p-4 rounded-xl border border-slate-800 bg-slate-900/50">
                             <p className="text-xs text-slate-500 mb-1">Enfoque</p>
-                            <p className="text-sm font-medium text-white">Full Stack</p>
+                            <p className="text-sm font-medium text-white">Data & BI</p>
                         </div>
                         <div className="p-4 rounded-xl border border-slate-800 bg-slate-900/50">
                             <p className="text-xs text-slate-500 mb-1">Estado</p>
@@ -73,7 +74,7 @@ export default function About() {
                     className="md:w-1/2"
                 >
                     <h3 className="text-xl font-semibold mb-6 text-white">
-                        Tecnologías
+                        Tecnologías y Herramientas
                     </h3>
                     <div className="flex flex-wrap gap-3">
                         {skills.map((skill) => (
@@ -95,9 +96,9 @@ export default function About() {
                             Áreas de enfoque
                         </h3>
                         {[
-                            { label: 'Backend (Java / Node.js)', pct: 75 },
-                            { label: 'Frontend (React / Next.js)', pct: 65 },
-                            { label: 'Bases de datos (SQL)', pct: 70 },
+                            { label: 'Bases de Datos & SQL (T-SQL / SSIS)', pct: 90 },
+                            { label: 'Business Intelligence (Power BI / DAX)', pct: 85 },
+                            { label: 'Análisis de Datos y Automatización', pct: 85 },
                         ].map(({ label, pct }) => (
                             <div key={label}>
                                 <div className="flex justify-between mb-1.5">
@@ -128,7 +129,7 @@ export default function About() {
                     Certificaciones
                 </h3>
                 <p className="text-sm text-slate-500 mb-6">
-                    Cursos y certificados que respaldan mi formación
+                    Cursos y especializaciones que respaldan mi formación
                 </p>
 
                 <div className="flex flex-col gap-3">

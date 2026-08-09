@@ -59,12 +59,12 @@ export default function Header(): JSX.Element {
             <nav className="max-w-7xl mx-auto flex justify-between items-center py-4 px-4 sm:px-6 lg:px-8">
 
                 {/* LOGO — solo nombre, sin cuadro JA */}
-                <button
+                <button 
                     onClick={() => smoothScrollTo('home')}
                     className="group"
                 >
                     <span className="text-white font-semibold text-sm tracking-tight">
-                        Jhoandry<span className="text-blue-400"> Apaza</span>
+                        Jorge Luis<span className="text-blue-400"> Castro Rojas</span>
                     </span>
                 </button>
 

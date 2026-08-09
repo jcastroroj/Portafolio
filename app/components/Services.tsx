@@ -23,8 +23,8 @@ export default function Services(): JSX.Element {
                 </h2>
                 <div className="w-16 h-0.5 bg-gradient-to-r from-blue-500 to-cyan-400 mb-6" />
                 <p className="text-slate-400 max-w-2xl leading-relaxed">
-                    Soluciones digitales adaptadas a cada necesidad, con enfoque en calidad,
-                    rendimiento y buenas prácticas de desarrollo.
+                    Soluciones en analítica de datos, tableros interactivos en Power BI, optimización de bases de
+                    datos y automatización de procesos orientadas a resultados de alto impacto.
                 </p>
             </motion.div>
 

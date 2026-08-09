@@ -1,3 +1,4 @@
+
 import {
     FiGithub,
     FiLinkedin,
@@ -6,24 +7,15 @@ import {
     FiDatabase,
     FiCpu,
     FiCode,
-    FiAward
+    FiAward,
+    FiBarChart2,
+    FiServer
 } from 'react-icons/fi'
 
 import {
-    FaJava,
-    FaNodeJs,
     FaPython,
-    FaPhp,
-    FaWordpress,
-    FaJs,
-    FaCss3Alt
+    FaFileExcel,
 } from 'react-icons/fa'
-
-import {
-    SiNextdotjs,
-    SiTypescript,
-    SiSpringboot
-} from 'react-icons/si'
 
 // 🔹 NAV
 export const navLinks = [
@@ -36,148 +28,104 @@ export const navLinks = [
 
 // 🔹 REDES
 export const socialLinks = [
-    { name: 'GitHub', url: 'https://github.com/jhoandryA', icon: FiGithub },
-    { name: 'LinkedIn', url: 'https://www.linkedin.com/in/jhoandry-apaza-61b852357/', icon: FiLinkedin },
-    { name: 'Email', url: 'mailto:jhoandryoficial@gmail.com', icon: FiMail },
+    { name: 'GitHub', url: 'https://github.com/jcastroroj', icon: FiGithub },
+    { name: 'LinkedIn', url: 'https://www.linkedin.com/in/jorgeluiscastrorojas', icon: FiLinkedin },
+    { name: 'Email', url: 'mailto:luisjcr.1801@gmail.com', icon: FiMail },
 ]
 
-// 🔹 SKILLS
+// 🔹 SKILLS (Enfocado en Datos y BI)
 export const skills = [
-    // Lenguajes
-    { name: 'Java', icon: FaJava },
-    { name: 'PHP', icon: FaPhp },
+    { name: 'SQL Server', icon: FiDatabase },
+    { name: 'T-SQL', icon: FiDatabase },
+    { name: 'SSIS (ETL)', icon: FiServer },
+    { name: 'Power BI', icon: FiBarChart2 },
+    { name: 'DAX & Modelado', icon: FiBarChart2 },
+    { name: 'Excel Avanzado', icon: FaFileExcel },
     { name: 'Python', icon: FaPython },
-    { name: 'TypeScript', icon: SiTypescript },
-    { name: 'JavaScript', icon: FaJs },
-
-    // Backend
-    { name: 'Node.js', icon: FaNodeJs },
-    { name: 'Spring Boot', icon: SiSpringboot },
-    { name: 'Next.js', icon: SiNextdotjs },
-
-    // Base de datos
-    { name: 'SQL', icon: FiDatabase },
-
-    // Web / CMS
-    { name: 'WordPress', icon: FaWordpress },
-    { name: 'CSS', icon: FaCss3Alt },
 ]
 
-// 🔹 PROYECTOS
+// 🔹 PROYECTOS (Orientados a bases de datos y analítica)
 export const projects = [
     {
-        name: 'FortexMan360',
-        image: '/images/fortexman360.png',
-        url: 'fortexman360.com.pe',
-        description: 'Desarrollé el sitio web para empresa de seguridad privada, construyendo secciones clave del sitio y asegurando una experiencia completamente responsive en todos los dispositivos.',
-        technologies: ['WordPress', 'JS', 'CSS'],
-        githubUrl: null,
-        liveUrl: 'https://fortexman360.com.pe/'
-    },
-    {
-        name: 'Shiyan Ryans',
-        image: '/images/shiyan.png',
-        url: 'shiyan.pe',
-        description: 'Lideré el desarrollo completo de este e-commerce de repuestos importados, desde el catálogo filtrable por marca y categoría hasta el flujo de cotización vía WhatsApp.',
-        technologies: ['WordPress', 'WooCommerce', 'JS', 'CSS'],
-        githubUrl: null,
-        liveUrl: 'https://shiyan.pe/'
-    },
-    {
-        name: 'Cody Motors',
-        image: '/images/codymotors.png',
-        url: 'codymotors.pe',
-        description: 'Desarrollé la página principal de esta tienda de repuestos automotrices, incluyendo hero, categorías destacadas y secciones de confianza para el usuario.',
-        technologies: ['WordPress', 'WooCommerce', 'JS', 'CSS'],
-        githubUrl: null,
-        liveUrl: 'https://codymotors.pe/'
-    },
-    {
-        name: 'FOCCADI',
-        image: '/images/foccadi.png',
-        url: 'foccadi.consigueventas.com',
-        description: 'Colaboré en el desarrollo del sitio web de esta ONGD dedicada a la capacitación y acompañamiento en el cuidado del Alzheimer, integrando secciones de servicios, testimonios, preguntas frecuentes y formulario de contacto.',
-        technologies: ['WordPress', 'JS', 'CSS'],
-        githubUrl: null,
-        liveUrl: 'https://foccadi.consigueventas.com/'
-    },
-    {
-        name: 'PostulaPe - Sistema de Reclutamiento',
-        image: '/images/postulape.jpg',
+        name: 'Analytics de Recontactabilidad y Volumetría por ANI',
+        image: '/images/Dasboard_Recontacto_Volumetria.png',
         url: null,
-        description: 'Sistema backend para la gestión de procesos de reclutamiento que permite administrar postulantes, convocatorias y etapas de selección, optimizando el flujo de contratación en recursos humanos.',
-        technologies: ['Java', 'Spring Boot', 'MySQL', 'REST API'],
-        githubUrl: 'https://github.com/jhoandryA/postulape_backend',
+        description: 'Dashboard analítico para el control y monitoreo de tasas de recontacto telefónico e indicadores de intensidad por ANI y skill, procesando volúmenes masivos de llamadas.',
+        technologies: ['Power BI', 'SQL Server', 'T-SQL', 'DAX', 'Modelado de Datos'],
+        githubUrl: null,
         liveUrl: '#'
     },
     {
-        name: 'Sistema Académico Universitario',
-        image: '/images/universidad.jpg',
+        name: 'Executive Sales & Profit Dashboard',
+        image: '/images/dashboard_Gerencial.png',
         url: null,
-        description: 'Backend para la gestión académica de una universidad, enfocado en un diseño relacional robusto con integridad referencial, auditoría y control de matrículas mediante reglas en base de datos.',
-        technologies: ['Node.js', 'MySQL', 'API REST'],
-        githubUrl: 'https://github.com/jhoandryA/universidad_backend',
+        description: 'Reporte gerencial interactivo de rendimiento financiero, ingresos globales, márgenes de ganancia y análisis de rentabilidad por producto y región.',
+        technologies: ['Power BI', 'DAX Avanzado', 'Modelado Dimensional', 'KPIs','SQL Server'],
+        githubUrl: null,
         liveUrl: '#'
     },
     {
-        name: 'EquilibrioS - Finanzas Personales',
-        image: '/images/equilibrios.jpg',
-        url: 'jhoandrya.github.io/EquilibrioS',
-        description: 'Aplicación web para gestionar ingresos y gastos mensuales con visualización gráfica, control de presupuesto y almacenamiento local sin necesidad de backend.',
-        technologies: ['JavaScript', 'HTML', 'CSS', 'LocalStorage'],
-        githubUrl: 'https://github.com/jhoandryA/EquilibrioS',
-        liveUrl: 'https://jhoandrya.github.io/EquilibrioS/'
+        name: 'Dashboard Operativo de Contact Center',
+        image: '/images/dashboard-contact-center.png',
+        url: null,
+        description: 'Panel de control analítico para la gestión y monitoreo de canales de atención (Telefonía, Chat, Redes Sociales, Mail y Outbound), optimizando niveles de servicio, TMO y satisfacción del cliente (CSAT).',
+        technologies: ['Power BI', 'DAX', 'Modelado Dimensional', 'KPIs Operativos','SQL Server'],
+        githubUrl: null,
+        liveUrl: '#'
+    },
+]
+
+
+// 🔹 SERVICIOS (Enfocados en analítica y bases de datos)
+export const services = [
+    {
+        title: 'Business Intelligence & Power BI',
+        description: 'Creación de dashboards interactivos, modelos de datos optimizados y reportes gerenciales en Power BI mediante DAX.',
+        icon: FiBarChart2
+    },
+    {
+        title: 'Optimización de Bases de Datos',
+        description: 'Diseño, modelado relacional, consultas avanzadas en T-SQL y optimización de rendimiento en SQL Server.',
+        icon: FiDatabase
+    },
+    {
+        title: 'Automatización de Procesos (ETL)',
+        description: 'Construcción de flujos ETL robustos con SSIS y scripts en Python para la limpieza, transformación y carga masiva de datos.',
+        icon: FiServer
+    },
+    {
+        title: 'Análisis de Datos y Reporting',
+        description: 'Procesamiento de grandes volúmenes de datos transaccionales para la detección de anomalías y apoyo en la toma de decisiones.',
+        icon: FiCpu
     }
 ]
 
+
 // 🔹 CERTIFICACIONES
 export const certificates = [
+
     {
-        name: 'WordPress para Desarrollo Web',
-        issuer: 'Consigue Ventas',
-        date: 'Junio 2026',
-        pdfUrl: '/certificates/certificado-wordpress.pdf',
+        name: 'Power BI Intermedio',
+        issuer: 'Coordinación Académica (Jhon Velasque D.)',
+        date: '20 de marzo del 2026',
+        pdfUrl: '/certificates/CERTIFICADO - POWER BI INTERMEDIO.pdf',
         icon: FiAward
     },
     {
-        name: 'Fundamentos del Desarrollo Web Moderno (HTML, CSS, JavaScript)',
-        issuer: 'Consigue Ventas',
-        date: 'Marzo 2026',
-        pdfUrl: '/certificates/certificado-fundamentos-web.pdf',
+        name: 'Data Analytics Essentials',
+        issuer: 'Instituto Superior SISE / Cisco Networking Academy',
+        date: '02 Abr 2025',
+        pdfUrl: '/certificates/CERTIFICADO - Fundamentos del análisis de datos.pdf',
+        icon: FiAward
+    },
+    {
+        name: 'PCAP: Programming Essentials in Python',
+        issuer: 'Cisco Networking Academy / OpenEDG Python Institute',
+        date: '5 Abr 2024',
+        pdfUrl: '/certificates/CERTIFICADO - Fundamentos de programación en Python.pdf',
         icon: FiAward
     },
 ]
  
 
-export const services = [
-    {
-        title: 'Desarrollo Web',
-        description: 'Creación de aplicaciones web modernas, funcionales y responsivas utilizando tecnologías actuales.',
-        icon: FaNodeJs
-    },
-    {
-        title: 'Diseño UI/UX',
-        description: 'Interfaces intuitivas y atractivas enfocadas en mejorar la experiencia del usuario.',
-        icon: FiLayers
-    },
-    {
-        title: 'Desarrollo Backend',
-        description: 'Construcción de APIs, lógica de negocio y sistemas escalables con Spring Boot y Node.js.',
-        icon: SiSpringboot
-    },
-    {
-        title: 'Bases de Datos',
-        description: 'Diseño, modelado y gestión de bases de datos relacionales con SQL Server, MySQL y PostgreSQL.',
-        icon: FiDatabase
-    },
-    {
-        title: 'Desarrollo de Sistemas',
-        description: 'Creación de sistemas completos de gestión (ventas, reclutamiento, académico) con arquitectura cliente-servidor.',
-        icon: FiCpu
-    },
-    {
-        title: 'Programación Multilenguaje',
-        description: 'Desarrollo en múltiples lenguajes como Java, C#, PHP, Python, JavaScript y TypeScript.',
-        icon: FiCode
-    }
-]
+

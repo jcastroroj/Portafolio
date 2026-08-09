@@ -12,10 +12,10 @@ export default function Footer(): JSX.Element {
                         href="/"
                         className="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400"
                     >
-                        Jhoandry Apaza
+                        Jorge Castro
                     </Link>
                     <p className="text-slate-500 text-sm mt-1">
-                        Desarrollador de Software & Sistemas
+                        Analista de datos  
                     </p>
                 </div>
 
@@ -36,7 +36,7 @@ export default function Footer(): JSX.Element {
                         ))}
                     </div>
                     <p className="text-slate-600 text-xs">
-                        © {new Date().getFullYear()} Jhoandry Apaza. Todos los derechos reservados.
+                        © {new Date().getFullYear()} Jorge Castro. Todos los derechos reservados.
                     </p>
                 </div>
 

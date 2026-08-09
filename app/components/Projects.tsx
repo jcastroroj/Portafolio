@@ -28,8 +28,8 @@ export default function Projects(): JSX.Element {
                 </h2>
                 <div className="w-16 h-0.5 bg-gradient-to-r from-blue-500 to-cyan-400 mb-6" />
                 <p className="text-slate-400 max-w-2xl leading-relaxed">
-                    Sitios y sistemas que he desarrollado, aplicando buenas prácticas,
-                    diseño de bases de datos y construcción de aplicaciones web modernas.
+                    Modelos, reportes y dashboards en Power BI, optimización de consultas en SQL Server y scripts
+                    en Python enfocados en la automatización de procesos y análisis de datos de alto impacto.
                 </p>
             </motion.div>
 
@@ -53,7 +53,7 @@ export default function Projects(): JSX.Element {
                                 <div className="flex-1 min-w-0 mx-2">
                                     <div className="bg-slate-900/70 rounded-md px-2.5 py-1 text-center">
                                         <span className="text-[11px] text-slate-400 truncate block">
-                                            {project.url || 'proyecto local'}
+                                            {project.url || 'Dashboard'}
                                         </span>
                                     </div>
                                 </div>

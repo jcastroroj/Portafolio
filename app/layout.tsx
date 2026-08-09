@@ -9,8 +9,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-    title: 'Jhoandry Apaza | Desarrollador de Software',
-    description: 'Portafolio personal de desarrollo web y sistemas',
+    title: 'Jorge Castro | Analista  de Datos',
+    description: 'Portafolio personal',
 }
 
 export default function RootLayout({
