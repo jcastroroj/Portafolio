@@ -79,20 +79,20 @@ export const projects = [
         description: [
             "• Reto: Inexistencia de visibilidad omnicanal en volúmenes masivos (+1M de registros) para la gestión efectiva del SLA.",
             "• Acción: Procesamiento, limpieza y lógica avanzada en SQL Server (ETL) con modelado dimensional (copo de nieve)  y medidas DAX en Power BI.",
-            "• Resultado: Centralización operativa de todos los canales (Telefonía, Chat, RRSS, Mail, Outbound) facilitando la toma de decisiones basada en KPIs críticos como SLA, TMO y CSAT."
+            "• Resultado: Centralización operativa de todos los canales (Telefonía, Chat, RRSS, Mail, Outbound) facilitando la toma de decisiones basada en KPIs críticos como SLA, TMO y TRAFICO."
         ],
         technologies: ['Power BI', 'SQL Server', 'T-SQL', 'Modelado Dimensional', 'KPIs Operativos'],
         githubUrl: null,
         liveUrl: '#'
     },
-{
+    {
         name: 'Dashboard de Control Operativo - Redes Sociales',
         image: '/images/Dasboard_Control_Operativo_RedesSociales.png',
         url: null,
         description: [
-            "• El Reto: Carencia de visibilidad consolidada sobre la atención de canales escritos (Facebook e Instagram) gestionados desde diversos países, dificultando el seguimiento a los KPIs, SLAs y tiempos de respuesta en ventanas de 3 meses.",
-            "• Acción: Procesamiento y limpieza lógica de los datos transaccionales en SQL Server, implementando un modelado dimensional optimizado y medidas DAX avanzadas en Power BI para la visualización del rendimiento.",
-            "• Resultado: Creación de un panel de control analítico multi-país que permite monitorear con precisión la volumetría, niveles de servicio y calidad de atención por canal digital en un periodo determinado."
+            "• Reto: Falta de visibilidad consolidada en la atención de canales escritos (Facebook e Instagram) por país en ventanas de 3 meses.",
+            "• Acción: Procesamiento y lógica en SQL Server, integrando modelado dimensional (copo de nieve) y medidas DAX en Power BI.",
+            "• Resultado: Panel analítico bajo patrón Z que optimiza el monitoreo multi-país de SLAs, volumetría y calidad de atención."
         ],
         technologies: ['Power BI', 'SQL Server', 'T-SQL', 'DAX', 'Modelado Dimensional'],
         githubUrl: null,
