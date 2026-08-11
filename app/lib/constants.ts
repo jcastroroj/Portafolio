@@ -46,29 +46,29 @@ export const skills = [
 
 // 🔹 PROYECTOS (Orientados a bases de datos y analítica)
 export const projects = [
-{
+    {
         name: 'Analytics de Recontactabilidad y Volumetría por ANI',
         image: '/images/Dasboard_Recontacto_Volumetria.png',
         url: null,
         description: [
-            "• Reto: Ineficiencia operativa por falta de visibilidad en +128k comunicaciones.",
-            "• Acción: ETL en SQL Server y modelado dimensional (copo de nieve) en Power BI.",
-            "• Resultado: Interfaz optimizada bajo patrón Z que reduce tiempos de análisis y agiliza la detección de fallas."
+            "• Reto: Ineficiencia operativa por falta de visibilidad en +128k comunicaciones y su recurrencia.",
+            "• Acción: Lógica en T-SQL para cálculo de reincidencias (1, 3, 7, 30 días) y modelado (copo de nieve) en Power BI con medidas DAX.",
+            "• Resultado: Interfaz bajo patrón Z que agiliza la detección de fallas mediante el análisis preciso de recontactabilidad."
         ],
         technologies: ['Power BI', 'SQL Server', 'T-SQL', 'DAX', 'Modelado Dimensional'],
         githubUrl: null,
         liveUrl: '#'
     },
-    {
+   {
         name: 'Executive Sales & Profit Dashboard',
         image: '/images/dashboard_Gerencial.png',
         url: null,
         description: [
-            "• El Reto: Dispersión de múltiples archivos Excel que impedía una visión consolidada del rendimiento financiero, márgenes de ganancia y rentabilidad por región y producto.",
-            "• Acción: Integración y limpieza de múltiples fuentes Excel mediante técnicas de ETL en Power Query, modelado dimensional y desarrollo de medidas DAX avanzadas para KPIs financieros.",
-            "• Resultado: Reporte gerencial de alto impacto que permite identificar al instante productos líderes en rentabilidad y tendencias de mercado, optimizando la toma de decisiones estratégicas."
+            "• Reto: Dispersión de múltiples fuentes Excel impedía una visión consolidada de rentabilidad y márgenes financieros.",
+            "• Acción: Procesamiento ETL en Power Query, modelado dimensional (copo de nieve) y medidas DAX avanzadas para KPIs financieros.",
+            "• Resultado: Dashboard bajo patrón Z que automatiza el reporte y acelera la toma de decisiones mediante insights de rentabilidad y comparativas LY (Year-over-Year)."
         ],
-        technologies: ['Power BI', 'DAX Avanzado', 'Modelado Dimensional', 'Excel Avanzado', 'Power Query'],
+        technologies: ['Power BI', 'DAX Avanzado', 'Modelado Dimensional', 'Power Query', 'Excel Avanzado'],
         githubUrl: null,
         liveUrl: '#'
     },
