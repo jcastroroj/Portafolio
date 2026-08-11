@@ -51,9 +51,9 @@ export const projects = [
         image: '/images/Dasboard_Recontacto_Volumetria.png',
         url: null,
         description: [
-            "🎯 El Reto: Falta de visibilidad y control sobre la recurrencia de llamadas y la intensidad por ANI o skill en la operación.",
-            "⚙️ Acción: Modelado de +128k comunicaciones y 81k ANIs en Power BI con métricas de velocidad a 1, 3, 7 y 30 días.",
-            "📈 Resultado: Control preciso de la relación intensidad-recontacto para segmentar el rendimiento operativo."
+            "• El Reto: Falta de visibilidad y control sobre la recurrencia de llamadas y la intensidad por ANI o skill en la operación.",
+            "• Acción: Modelado de +128k comunicaciones y 81k ANIs en Power BI con métricas de velocidad a 1, 3, 7 y 30 días.",
+            "• Resultado: Control preciso de la relación intensidad-recontacto para segmentar el rendimiento operativo."
         ],
         technologies: ['Power BI', 'SQL Server', 'T-SQL', 'DAX', 'Modelado de Datos'],
         githubUrl: null,
@@ -63,8 +63,12 @@ export const projects = [
         name: 'Executive Sales & Profit Dashboard',
         image: '/images/dashboard_Gerencial.png',
         url: null,
-        description: 'Reporte gerencial interactivo de rendimiento financiero, ingresos globales, márgenes de ganancia y análisis de rentabilidad por producto y región.',
-        technologies: ['Power BI', 'DAX Avanzado', 'Modelado Dimensional', 'KPIs','SQL Server'],
+        description: [
+            "• El Reto: Dispersión de múltiples archivos Excel que impedía una visión consolidada del rendimiento financiero, márgenes de ganancia y rentabilidad por región y producto.",
+            "• Acción: Integración y limpieza de múltiples fuentes Excel mediante técnicas de ETL en Power Query, modelado dimensional y desarrollo de medidas DAX avanzadas para KPIs financieros.",
+            "• Resultado: Reporte gerencial de alto impacto que permite identificar al instante productos líderes en rentabilidad y tendencias de mercado, optimizando la toma de decisiones estratégicas."
+        ],
+        technologies: ['Power BI', 'DAX Avanzado', 'Modelado Dimensional', 'Excel Avanzado', 'Power Query'],
         githubUrl: null,
         liveUrl: '#'
     },
@@ -72,17 +76,25 @@ export const projects = [
         name: 'Dashboard Operativo de Contact Center',
         image: '/images/dashboard-contact-center.png',
         url: null,
-        description: 'Panel de control analítico para la gestión y monitoreo de canales de atención (Telefonía, Chat, Redes Sociales, Mail y Outbound), optimizando niveles de servicio, TMO y satisfacción del cliente (CSAT).',
-        technologies: ['Power BI', 'DAX', 'Modelado Dimensional', 'KPIs Operativos','SQL Server'],
+        description: [
+            "• El Reto: Inexistencia de visibilidad omnicanal en la atención al cliente, donde la dispersión de datos entre múltiples canales y el manejo de volúmenes masivos (+1M de registros) impedían una gestión efectiva del nivel de servicio y la calidad operativa.",
+            "• Acción: Procesamiento, limpieza y estructuración de la lógica de negocio mediante consultas avanzadas en SQL Server, ejecutando el modelado dimensional y diseño visual en Power BI para integrar todos los puntos de contacto.",
+            "• Resultado: Panel de control integral que centraliza la gestión y monitoreo de canales (Telefonía, Chat, RRSS, Mail y Outbound), optimizando KPIs críticos como SLA, TMO y CSAT mediante información procesada en tiempo real."
+        ],
+        technologies: ['Power BI', 'SQL Server', 'T-SQL', 'Modelado Dimensional', 'KPIs Operativos'],
         githubUrl: null,
         liveUrl: '#'
     },
-    {
+{
         name: 'Dashboard de Control Operativo - Redes Sociales',
         image: '/images/Dasboard_Control_Operativo_RedesSociales.png',
         url: null,
-        description: 'Panel de control analítico enfocado en la gestión y monitoreo de la atención por canales digitales (Facebook e Instagram), optimizando niveles de servicio (SLA), tiempos de respuesta, volumetría de interacciones y calidad de servicio.',
-        technologies: ['Power BI', 'DAX', 'Modelado Dimensional', 'KPIs Operativos', 'SQL Server'],
+        description: [
+            "• El Reto: Carencia de visibilidad consolidada sobre la atención de canales escritos (Facebook e Instagram) gestionados desde diversos países, dificultando el seguimiento a los KPIs, SLAs y tiempos de respuesta en ventanas de 3 meses.",
+            "• Acción: Procesamiento y limpieza lógica de los datos transaccionales en SQL Server, implementando un modelado dimensional optimizado y medidas DAX avanzadas en Power BI para la visualización del rendimiento.",
+            "• Resultado: Creación de un panel de control analítico multi-país que permite monitorear con precisión la volumetría, niveles de servicio y calidad de atención por canal digital en un periodo determinado."
+        ],
+        technologies: ['Power BI', 'SQL Server', 'T-SQL', 'DAX', 'Modelado Dimensional'],
         githubUrl: null,
         liveUrl: '#'
     },
