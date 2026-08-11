@@ -77,9 +77,9 @@ export const projects = [
         image: '/images/dashboard-contact-center.png',
         url: null,
         description: [
-            "• El Reto: Inexistencia de visibilidad omnicanal en la atención al cliente, donde la dispersión de datos entre múltiples canales y el manejo de volúmenes masivos (+1M de registros) impedían una gestión efectiva del nivel de servicio y la calidad operativa.",
-            "• Acción: Procesamiento, limpieza y estructuración de la lógica de negocio mediante consultas avanzadas en SQL Server, ejecutando el modelado dimensional y diseño visual en Power BI para integrar todos los puntos de contacto.",
-            "• Resultado: Panel de control integral que centraliza la gestión y monitoreo de canales (Telefonía, Chat, RRSS, Mail y Outbound), optimizando KPIs críticos como SLA, TMO y CSAT mediante información procesada en tiempo real."
+            "• Reto: Inexistencia de visibilidad omnicanal en volúmenes masivos (+1M de registros) para la gestión efectiva del SLA.",
+            "• Acción: Procesamiento, limpieza y lógica avanzada en SQL Server (ETL) con modelado dimensional (copo de nieve)  y medidas DAX en Power BI.",
+            "• Resultado: Centralización operativa de todos los canales (Telefonía, Chat, RRSS, Mail, Outbound) facilitando la toma de decisiones basada en KPIs críticos como SLA, TMO y CSAT."
         ],
         technologies: ['Power BI', 'SQL Server', 'T-SQL', 'Modelado Dimensional', 'KPIs Operativos'],
         githubUrl: null,
