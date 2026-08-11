@@ -117,13 +117,21 @@ export default function Projects(): JSX.Element {
 
                             {/* Descripción */}
                             <div className="text-sm text-slate-400 leading-relaxed flex-1 space-y-2">
-                                {(project.description as string).split('\n').map((paragraph: string, i: number) => (
-                                    paragraph.trim() !== '' && (
+                                {Array.isArray(project.description) ? (
+                                    project.description.map((item, i) => (
                                         <p key={i} className="block">
-                                            {paragraph}
+                                            {item}
                                         </p>
-                                    )
-                                ))}
+                                    ))
+                                ) : (
+                                    (project.description as string).split('\n').map((paragraph: string, i: number) => (
+                                        paragraph.trim() !== '' && (
+                                            <p key={i} className="block">
+                                                {paragraph}
+                                            </p>
+                                        )
+                                    ))
+                                )}
                             </div>
 
                             {/* Tags de tecnologías */}
