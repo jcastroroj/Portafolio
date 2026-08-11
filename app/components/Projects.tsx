@@ -177,9 +177,9 @@ export default function Projects(): JSX.Element {
                             <Image
                                 src={selectedImage}
                                 alt="preview"
-                                width={1600}
-                                height={1000}
-                                className="w-auto h-auto max-w-[96vw] max-h-[95vh] object-contain rounded-xl shadow-2xl"
+                                width={1920}
+                                height={1080}
+                                className="w-full h-full max-w-[96vw] max-h-[95vh] object-contain rounded-xl shadow-2xl"
                             />
                         </motion.div>
                     </motion.div>
