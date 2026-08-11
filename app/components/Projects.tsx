@@ -116,9 +116,15 @@ export default function Projects(): JSX.Element {
                             </div>
 
                             {/* Descripción */}
-                            <p className="text-sm text-slate-400 leading-relaxed flex-1">
-                                {project.description}
-                            </p>
+                            <div className="text-sm text-slate-400 leading-relaxed flex-1 space-y-2">
+                                {(project.description as string).split('\n').map((paragraph: string, i: number) => (
+                                    paragraph.trim() !== '' && (
+                                        <p key={i} className="block">
+                                            {paragraph}
+                                        </p>
+                                    )
+                                ))}
+                            </div>
 
                             {/* Tags de tecnologías */}
                             <div className="flex flex-wrap gap-1.5 pt-1">
