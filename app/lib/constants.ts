@@ -90,7 +90,7 @@ export const projects = [
         image: '/images/Dasboard_Control_Operativo_RedesSociales.png',
         url: null,
         description: [
-            "• Reto: Falta de visibilidad consolidada en la atención de canales escritos (Facebook e Instagram) por país en ventanas de 3 meses.",
+            "• Reto: Falta de visibilidad consolidada en la atención de canales escritos (Facebook e Instagram) por país.",
             "• Acción: Procesamiento y lógica en SQL Server, integrando modelado dimensional (copo de nieve) y medidas DAX en Power BI.",
             "• Resultado: Panel analítico bajo patrón Z que optimiza el monitoreo multi-país de SLAs, volumetría y calidad de atención."
         ],
