@@ -46,11 +46,15 @@ export const skills = [
 
 // 🔹 PROYECTOS (Orientados a bases de datos y analítica)
 export const projects = [
-{
+    {
         name: 'Analytics de Recontactabilidad y Volumetría por ANI',
         image: '/images/Dasboard_Recontacto_Volumetria.png',
         url: null,
-        description: '• El Reto: Falta de visibilidad y control sobre la recurrencia de llamadas (recontactos) y la intensidad por número de origen (ANI) o skill en la operación de contact center.\n• Acción: Procesamiento y modelado de un alto volumen de datos transaccionales (+128k comunicaciones y 81k ANIs únicos) para estructurar un dashboard interactivo en Power BI con métricas de velocidad a 1, 3, 7 y 30 días.\n• Resultado: Control analítico preciso de la relación entre intensidad y recontacto, permitiendo segmentar el rendimiento operativo por skill para la toma de decisiones gerenciales.',
+        description: [
+            '• El Reto: Falta de visibilidad y control sobre la recurrencia de llamadas (recontactos) y la intensidad por número de origen (ANI) o skill en la operación de contact center.',
+            '• Acción: Procesamiento y modelado de un alto volumen de datos transaccionales (+128k comunicaciones y 81k ANIs únicos) para estructurar un dashboard interactivo en Power BI con métricas de velocidad a 1, 3, 7 y 30 días.',
+            '• Resultado: Control analítico preciso de la relación entre intensidad y recontacto, permitiendo segmentar el rendimiento operativo por skill para la toma de decisiones gerenciales.'
+        ],
         technologies: ['Power BI', 'SQL Server', 'T-SQL', 'DAX', 'Modelado de Datos'],
         githubUrl: null,
         liveUrl: '#'
