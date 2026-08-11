@@ -157,14 +157,14 @@ export default function Projects(): JSX.Element {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
-                        className="fixed inset-0 bg-black/90 flex items-center justify-center z-50 p-4"
+                        className="fixed inset-0 bg-black/95 flex items-center justify-center z-50 p-2 md:p-6"
                         onClick={() => setSelectedImage(null)}
                     >
                         <button
-                            className="absolute top-4 right-4 w-10 h-10 flex items-center justify-center rounded-full bg-slate-800 border border-slate-700 text-slate-300 hover:text-white transition-colors"
+                            className="absolute top-4 right-4 w-11 h-11 flex items-center justify-center rounded-full bg-slate-800/80 border border-slate-700 text-slate-200 hover:text-white hover:bg-slate-700 transition-colors z-10"
                             onClick={() => setSelectedImage(null)}
                         >
-                            <FiX size={18} />
+                            <FiX size={20} />
                         </button>
                         <motion.div
                             initial={{ scale: 0.9, opacity: 0 }}
@@ -172,13 +172,14 @@ export default function Projects(): JSX.Element {
                             exit={{ scale: 0.9, opacity: 0 }}
                             transition={{ type: 'spring', damping: 25 }}
                             onClick={(e) => e.stopPropagation()}
+                            className="w-full h-full flex items-center justify-center"
                         >
                             <Image
                                 src={selectedImage}
                                 alt="preview"
-                                width={900}
-                                height={600}
-                                className="max-w-[90vw] max-h-[85vh] object-contain rounded-xl"
+                                width={1600}
+                                height={1000}
+                                className="w-auto h-auto max-w-[96vw] max-h-[95vh] object-contain rounded-xl shadow-2xl"
                             />
                         </motion.div>
                     </motion.div>
