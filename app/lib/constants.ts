@@ -99,9 +99,9 @@ export const projects = [
         liveUrl: '#'
     },
    {
-    name: 'Proyecto Retail SQL Analytics',
+    name: 'Proyecto SQL: Análisis de Retail - Optimización de Inventario y Ventas',
     image: '/images/retail-analytics.png',
-    url: null,
+    url: 'Retail-SQL-Analytics',
     description: [
         "• Reto: Necesidad de analizar de manera estructurada los datos de retail para la toma de decisiones comerciales.",
         "• Acción: Procesamiento y consultas avanzadas en SQL Server, implementando modelado relacional y optimización de datos.",
