@@ -86,7 +86,7 @@ export const projects = [
         liveUrl: '#'
     },
     {
-        name: 'Dashboard de Control Operativo - Redes Sociales',
+        name: 'Dashboard de Control Operativo - Redes Socialess',
         image: '/images/Dasboard_Control_Operativo_RedesSociales.png',
         url: null,
         description: [
@@ -100,7 +100,7 @@ export const projects = [
     },
    {
     name: 'Proyecto Retail SQL Analytics',
-    image: '/images/retail-analytics.png', // O la imagen que prefieras colocar en public/images
+    image: '/images/retail-analytics.png',
     url: null,
     description: [
         "• Reto: Necesidad de analizar de manera estructurada los datos de retail para la toma de decisiones comerciales.",
