@@ -109,7 +109,7 @@ export const projects = [
     ],
     technologies: ['SQL Server', 'T-SQL', 'Análisis de Datos', 'ETL'],
     githubUrl: 'https://github.com/jcastroroj/Proyecto-Retail-SQL-Analytics',
-    liveUrl: '#'
+    liveUrl: 'https://github.com/jcastroroj/Proyecto-Retail-SQL-Analytics'
    }, 
 ]
 
