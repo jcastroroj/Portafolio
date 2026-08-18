@@ -98,6 +98,16 @@ export const projects = [
         githubUrl: null,
         liveUrl: '#'
     },
+    {
+        title: "Proyecto Retail SQL Analytics",
+        description: "Análisis integral de datos de retail utilizando consultas SQL avanzadas, modelado relacional y optimización de procesos de extracción para la toma de decisiones comerciales.",
+        tags: ["SQL Server", "T-SQL", "Análisis de Datos", "ETL"],
+        imageUrl: "/images/retail-analytics.png", 
+        links: {
+        github: "https://github.com/jcastroroj/Proyecto-Retail-SQL-Analytics",
+        live: "" 
+        }
+    }   
 ]
 
 
