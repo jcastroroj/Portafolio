@@ -86,7 +86,7 @@ export const projects = [
         liveUrl: '#'
     },
     {
-        name: 'Dashboard de Control Operativo - Redes Socialess',
+        name: 'Dashboard de Control Operativo - Redes Sociales',
         image: '/images/Dasboard_Control_Operativo_RedesSociales.png',
         url: null,
         description: [
